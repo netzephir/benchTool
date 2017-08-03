@@ -2,6 +2,8 @@
 # @category  tools
 # @shortdesc Command benchmark
 # @longdesc  Command benchmark
+# @author Netzephir
+# @license MIT license
 # @version 1.1.1
 
 ############# init section ###############
@@ -36,7 +38,7 @@ while getopts 'hn:csmOJHS:li:r:' flag; do
 			echo "	Make an output on csv format (not affected by -s)"
 			echo "-J"
 			echo "	Make an output on json format (not affected by -s)"
-			echo "-H"outputHasCsv
+			echo "-H"
 			echo "	Hide csv headers"
 			echo "-S [Separator]"
 			echo "	Change the separator for csv format (default ,)"
